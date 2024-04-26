@@ -1,23 +1,10 @@
 // Inicializa los objetos Market y Product antes de crear el objeto Deal
 using DealService;
 
-IDealObserver dealObserver = new DealPublicated();
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddGrpc();
+var app = builder.Build();
 
-Product product = new Product{
-    Id = "1",
-    Name = "Product 1"
-};
-Market market = new Market{
-    Id = "1",
-    Name = "Market 1"
-};
-Deal deal = new Deal{
-    Product = product,
-    Market = market,
-    Price = 100,
-    Date = DateTime.Now,
-    Description = "Description"
-};
-DealDAO dealDAO = new DealDAO();
-dealDAO.Attach(dealObserver);
-dealDAO.InsertDeal(deal);
+app.MapGrpcService<DealsService>();
+app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
+app.Run();

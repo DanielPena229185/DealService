@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "e:\\DealService\\DealService\\DealService.csproj": {}
+    "c:\\Users\\Dapgp\\OneDrive\\Documentos\\Repositories\\DealService\\DealService\\DealService.csproj": {}
   },
   "projects": {
-    "e:\\DealService\\DealService\\DealService.csproj": {
+    "c:\\Users\\Dapgp\\OneDrive\\Documentos\\Repositories\\DealService\\DealService\\DealService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\DealService\\DealService\\DealService.csproj",
+        "projectUniqueName": "c:\\Users\\Dapgp\\OneDrive\\Documentos\\Repositories\\DealService\\DealService\\DealService.csproj",
         "projectName": "DealService",
-        "projectPath": "e:\\DealService\\DealService\\DealService.csproj",
+        "projectPath": "c:\\Users\\Dapgp\\OneDrive\\Documentos\\Repositories\\DealService\\DealService\\DealService.csproj",
         "packagesPath": "C:\\Users\\Dapgp\\.nuget\\packages\\",
-        "outputPath": "e:\\DealService\\DealService\\obj\\",
+        "outputPath": "c:\\Users\\Dapgp\\OneDrive\\Documentos\\Repositories\\DealService\\DealService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dapgp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Dapgp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

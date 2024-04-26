@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hxNXWMd4venpbKgwZMK3HYBco+c+d8iIVyU4xDoitva2QQYRF+nWKcETW04YjmimKRzQ19yXcO7dy1zh0YN5kg==",
+  "dgSpecHash": "5PePaNPNJ5Ihjl7C3tmI5P6I1eRRRfdvfc+9xWL4QkfZ3IWKwuLputwcAmAzTpzumDQzMxfplZSf/IWsDE9YCA==",
   "success": true,
-  "projectFilePath": "e:\\DealService\\DealService\\DealService.csproj",
+  "projectFilePath": "c:\\Users\\Dapgp\\OneDrive\\Documentos\\Repositories\\DealService\\DealService\\DealService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dapgp\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Dapgp\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
