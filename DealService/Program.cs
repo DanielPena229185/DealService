@@ -1,4 +1,3 @@
-// Inicializa los objetos Market y Product antes de crear el objeto Deal
 using DealService;
 
 var builder = WebApplication.CreateBuilder(args);

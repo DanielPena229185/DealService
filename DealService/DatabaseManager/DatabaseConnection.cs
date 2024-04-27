@@ -8,6 +8,8 @@ public class DatabaseConnection
     private const string DatabaseName = "DealService";
     private static DatabaseConnection databaseConnection;
 
+    private static int count = 0;
+
     public MongoClient Client { get; }
 
     private DatabaseConnection()
@@ -21,7 +23,8 @@ public class DatabaseConnection
         {
             databaseConnection = new DatabaseConnection();
         }
-
+        count++;
+        Console.WriteLine($"DatabaseConnection count: {count}");
         return databaseConnection;
     }   
 }

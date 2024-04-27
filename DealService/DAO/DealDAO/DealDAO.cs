@@ -36,7 +36,7 @@ public class DealDAO : IDealDAO
     public Deal InsertDeal(Deal deal)
     {
         DealsCollection.InsertOne(deal);
-        NotifyAllObservers(deal);
+        NotifyAllIDealObservers(deal);
         return deal;
     }
 
@@ -50,7 +50,7 @@ public class DealDAO : IDealDAO
         Observers.Remove(observer);
     }
 
-    private void NotifyAllObservers(Deal deal)
+    private void NotifyAllIDealObservers(Deal deal)
     {
         foreach (var observer in Observers)
         {
